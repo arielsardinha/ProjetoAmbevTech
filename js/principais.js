@@ -6,7 +6,6 @@
   setTimeout(() => {
     tx.classList.add("trans");
   }, 3000);
-
   txt_continuar.addEventListener("click", () => {
     box_central.classList.add("continue");
     box_continue1.style.display = "block";
