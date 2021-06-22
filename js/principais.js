@@ -2,6 +2,10 @@
   const txt_continuar = document.getElementById("txt_continuar");
   const box_central = document.querySelector(".box_central");
   const box_continue1 = document.querySelector(".box_continue1");
+  const tx = document.querySelector(".tx");
+  setTimeout(() => {
+    tx.classList.add("trans");
+  }, 3000);
 
   txt_continuar.addEventListener("click", () => {
     box_central.classList.add("continue");

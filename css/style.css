@@ -32,6 +32,15 @@
   font-weight: 600;
   cursor: pointer;
 }
+.tx {
+  font-weight: 600;
+}
+.tx.trans {
+  transition: 2s;
+  background-color: transparent;
+  color: transparent;
+  border: none;
+}
 #txt span {
   font-weight: 300;
 }
